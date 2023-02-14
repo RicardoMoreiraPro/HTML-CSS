@@ -49,6 +49,7 @@ main > section > article#txtt1{
 main > section > article#txtt1 > h1{
     padding: 20px;
     font-size: 1.5em;
+    color: #818C2B;
 }
 
 main > section > article#txtt1 > div#links{
@@ -93,6 +94,40 @@ main > section#tela2{
     text-align: left;
 }
 
+main > section#tela2 a{
+    text-decoration: none;
+    color: #818C2B;
+}
+
+main > section#tela3{
+    
+}
+
+main > section#tela3 > h1{
+    background-color: #A63B14;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+main > section#tela3 > table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 90vw;
+    max-width: 700px;
+    
+    
+}
+
+
+
+main > section#tela3 > table td, th{
+    border: 2px solid #818C2B;
+    padding: 5px;
+}
 
 
 
