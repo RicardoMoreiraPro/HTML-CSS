@@ -8,6 +8,7 @@
 }
 body{
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     
@@ -15,6 +16,7 @@ header{
 }
 header > div#th{
     display: inline-block;
+    color: black;
     padding: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
@@ -43,10 +45,61 @@ header > menu > ul > li > a{
     padding: 15px 35px;
     text-decoration: none;
     text-align: center;
-    color: #818C2B;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: underline;
     font-size: 1em;
     font-weight: bold;
 }
 
+main > section#tela1{
+    height: 100%;
+}
+
+main > section > article#txt1{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-indent: 20px;
+    margin: 10px;
+    
+}
+main > section > article#txt1 > h1{
+    font-size: 2em;
+    padding: 30px;
+    
+
+}
+main > section > article#txt1 > p{
+    font-size: 1em;
+    padding-left: 50px;
+    letter-spacing: 1px;
+    max-width: 350px;
+    
+    
+}
+main > section > article#img1{
+    display: inline-block;
+    transform: translateX(100px);
+    margin-bottom: 80px;
+    
+}
+
+main > section#tela2{
+    display: block;
+    color: white;
+    background-color: #A63B14;
+    
+}
+main > section#tela2 > h1{
+    font-size: 2em;
+    padding: 40px;
+}
+main > section#tela2 > div#imgp1{
+    padding: 10px;
+    display: inline-block;
+}
+main > section#tela2 > div#txtp1{
+    display: inline-block;
+   
+}
