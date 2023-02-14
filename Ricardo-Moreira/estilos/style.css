@@ -43,6 +43,7 @@ header > menu > ul > li > a{
 main > section > article#txtt1{
     padding: 15px;
     text-indent: 20px;
+    
 }
 
 main > section > article#txtt1 > h1{
@@ -53,22 +54,45 @@ main > section > article#txtt1 > h1{
 main > section > article#txtt1 > div#links{
     display: flex;
     justify-content: space-around;
+    
 }
 main > section#tela1  a{
     display: inline-block;
-    background-image: url(../imagens/logo-github.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-color: white;
     margin-top: 40px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: #A63B14;
-    border: 2px solid #A63B14;
+    border: 2px solid white;
     padding: 10px;
     border-radius: 10px;
     border-style: outset;
-    font-weight: bolder;
+    padding-left: 0px;
 }
+
+
+main > section > div#imgt1{
+    display: none;
+}
+
+main > h1#proj{
+    background-color: #A63B14;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+main > section#tela2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1, .p2, .p3{
+    width: 50%;
+    padding: 15px;
+    text-align: left;
+}
+
 
 
 
