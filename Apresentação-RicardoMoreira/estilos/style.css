@@ -74,18 +74,21 @@ main > section > div#imgt1{
 }
 
 main > h1#proj{
-    background-color: #A63B14;
-    color: black;
+    background-image: linear-gradient(to bottom, black, #962d07, #A63B14);
+    color: #818C2B;
+    font-style: normal;
     text-align: center;
-    margin-top: 120px;
-    margin-bottom: 40px;
-    font-size: 1.7em;
-    padding: 10px;
+    margin-top: 80px;
+    font-size: 1.9em;
+    padding: 40px;
+    
 }
 
 main > section#tela2{
     display: flex;
     flex-wrap: wrap;
+    background-color: #A63B14;
+    padding-bottom: 80px;
 }
 
 .p1, .p2, .p3{
@@ -95,17 +98,17 @@ main > section#tela2{
 }
 
 main > section#tela2 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #818C2B;
 }
 
 
 main > section#tela3 > h1{
-    background-color: #A63B14;
-    color: black;
-    font-size: 1.5em;
+    background-image: linear-gradient(to bottom, #A63B14, rgba(19, 17, 17, 0.39),black);
+    color: white;
+    font-size: 1.7em;
     padding: 10px;
-    margin-top: 100px;
+    padding-top: 40px;
     margin-bottom: 50px;
     text-align: center;
 }
